@@ -26,11 +26,11 @@ function checker(input) {
     "comp_choice"
   ).innerHTML = ` Der Computer hat <span> ${choices[
     num
-  ].toUpperCase()} gewählt </span>`;
+  ].toUpperCase()} </span> gewählt`;
 
   document.getElementById(
     "user_choice"
-  ).innerHTML = ` Du hast <span> ${input.toUpperCase()} gewählt </span>`;
+  ).innerHTML = ` Du hast <span> ${input.toUpperCase()} </span> gewählt `;
 
   let computer_choice = choices[num];
 
