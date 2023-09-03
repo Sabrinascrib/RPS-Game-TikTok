@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stein Papier Schere</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scores">
+        <p>Computer : <span>0</span></p>
+        <p>Du : <span>0</span></p></div>
+   
+      <div class="weapons">
+        <button onclick="checker('Stein')">
+          <i class="far fa-hand-rock"></i>
+        </button>
+        <button onclick="checker('Papier')">
+          <i class="far fa-hand-paper"></i>
+        </button>
+        <button onclick="checker('Schere')">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+      </div>
+      <div class="details">
+        <p id="user_choice"></p>
+        <p id="comp_choice"></p>
+        <p id="result"></p>
+      </div>
+    </div>
+   </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
