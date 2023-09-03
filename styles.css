@@ -73,3 +73,17 @@ body {
 span {
   font-weight: 600;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+    min-width: auto; /* Remove the minimum width constraint */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .weapons button {
+    font-size: 30px; /* Decrease button font size for smaller screens */
+    height: 80px; /* Decrease button height for smaller screens */
+    width: 80px; /* Decrease button width for smaller screens */
+  }
+}
